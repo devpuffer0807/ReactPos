@@ -1,0 +1,52 @@
+.callendar-body-row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 870px;
+}
+.callendar-body-row .no{
+    background-color: blue;
+    border-color: white;
+    border-style: solid;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 4px;
+    border-bottom-width: 2px;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.callendar-body-row .empty{
+    background-color: white;
+    border-color: white;
+    border-style: solid;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 4px;
+    border-bottom-width: 2px;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.callendar-body-row .day{
+    background-color: #fffcfca6;
+    border-color: white;
+    border-style: solid;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 4px;
+    border-bottom-width: 2px;
+    color: rgb(22, 22, 22);
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.callendar-body-row .day:hover{
+    background-color: #c4bfbfa6 !important;
+}
+
+.callendar-body-row .today{
+    background-color: rgb(228, 193, 253) !important;
+}
