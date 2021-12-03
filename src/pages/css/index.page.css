@@ -1,0 +1,12 @@
+body {
+    margin: 0px;
+    background-color: grey;
+    padding-left: 50px;
+    padding-top: 50px;
+    display: flex;
+    justify-content:  center;
+}
+.indexpage-container {
+    display: flex;
+    flex-direction: row;
+}

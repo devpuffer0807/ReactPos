@@ -1,0 +1,8 @@
+.leftlayout-container {
+    width: 30vw;
+    min-height: 80vh;
+    height: 80vh;
+    overflow: hidden;
+    background-color: white;
+    border: solid 1px;
+}

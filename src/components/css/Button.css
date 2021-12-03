@@ -1,0 +1,38 @@
+.button-container {
+    border: solid 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8vw;
+    height: 50px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.button-container span {
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+.button-enter-container {
+    border: solid 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(16vw + 2px);
+    height: 50px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.button-enter-container span {
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+.button-container:hover{
+    background-color: rgb(173, 173, 173);
+}
+.button-enter-container:hover{
+    background-color: rgb(173, 173, 173);
+}
