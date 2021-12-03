@@ -2,5 +2,5 @@ import { combineReducers } from "redux";
 import CalcReducer from "./calc";
 
 export default combineReducers({
-    callendar: CalcReducer,
+    calc: CalcReducer,
 });
