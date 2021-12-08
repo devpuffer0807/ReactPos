@@ -1,3 +1,10 @@
+/**
+ *  @author Puffer
+ *  @created at 12/03 2021
+ *  @updated at 12/04 2021
+ * 
+ * **/
+
 .leftlayout-container {
     width: 30vw;
     min-height: 80vh;
@@ -5,4 +12,27 @@
     overflow: hidden;
     background-color: white;
     border: solid 1px;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
+
+::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(184, 184, 184); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #929191; 
+  }

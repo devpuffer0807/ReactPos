@@ -1,3 +1,11 @@
+/**
+ *  @author Puffer
+ *  @created at 12/03 2021
+ *  @updated at 12/04 2021
+ * 
+ * **/
+
+
 import React from "react";
 import "./css/ToolBar.css";
 import Button from "./Button";
@@ -15,18 +23,7 @@ const ToolBar = () => {
                                 (typeof item.col[1][1] === 'object') ?
                                     ((typeof item.col[1][1].table === 'object') ?
                                         item.col[1][1].table.map((buttonData, buttonDataIndex) => {
-                                            console.log("======", buttonData.caption);
                                             return (<Button caption={buttonData.caption} color={buttonData.color} backgroundColor={buttonData.backgroundcolor}  component={<span>{buttonData.caption}</span>} key={"button_" + index + "_" + buttonDataIndex} />)
-                                        })
-                                        : null)
-                                    : null
-                            }
-                            {
-                                (typeof item.col[1] === 'object') ?
-                                    ((typeof item.col[1].table === 'object') ?
-                                        item.col[1].table.map((buttonData, buttonDataIndex) => {
-                                            console.log("======", buttonData.caption);
-                                            return (<Button caption={buttonData.caption} component={<span>{buttonData.caption}</span>} color={buttonData.color} backgroundColor={buttonData.backgroundcolor} key={"button_" + index + "_" + buttonDataIndex} />)
                                         })
                                         : null)
                                     : null

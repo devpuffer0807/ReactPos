@@ -1,3 +1,11 @@
+/**
+ *  @author Puffer
+ *  @created at 12/03 2021
+ *  @updated at 12/04 2021
+ * 
+ * **/
+
+
 import React from "react";
 import "./css/RightLayout.css";
 import { connect } from "react-redux";

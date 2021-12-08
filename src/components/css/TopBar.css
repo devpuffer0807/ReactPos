@@ -1,5 +1,24 @@
+/**
+ *  @author Puffer
+ *  @created at 12/03 2021
+ *  @updated at 12/04 2021
+ * 
+ * **/
+
 .topbar-container {
     width: 100%;
     background-color: white;
     padding: 5px;
+}
+
+.topbar-data-info {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 3px;
+}
+.topbar-data-info-comment {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 3px;
+    color: red;
 }

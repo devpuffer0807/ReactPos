@@ -6,8 +6,10 @@
  * **/
 
 import { combineReducers } from "redux";
-import PosReducer from "./pos";
+import TopReducer from "./top";
+import LeftReducer from "./left";
 
 export default combineReducers({
-    pos: PosReducer,
+    top: TopReducer,
+    left: LeftReducer,
 });
